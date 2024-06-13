@@ -1,0 +1,6 @@
+[0328/122657.481:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[0522/180941.756:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0522/185235.503:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0530/104649.738:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0530/111014.815:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0530/123027.598:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="2style.css">
+  <script src="2script.js" defer></script>
+</head>
+<body>
+    <nav>
+      <button class="filter" onclick="filterGallery('all')">All</button>
+      <button class="filter" onclick="filterGallery('landscapes')">Landscapes</button>
+      <button class="filter" onclick="filterGallery('portraits')">Portraits</button>
+      <!-- Add more filters as needed -->
+    </nav>
+  <section id="gallery">
+      <div class="photo">
+          <img src="prout.png" alt="Hot Air Balloon">
+          <p class="caption">Hot Air Balloon</p>
+      </div>
+      <div class="photo">
+          <img src="img (10).png" alt="Carpenter In Front Of House">
+          <p class="caption">Carpenter In Front Of House</p>
+      </div>
+      <div class="photo">
+          <img src="img (11).png" alt="Surfer Catching Air">
+          <p class="caption">Surfer Catching Air</p>
+      </div>
+      <div class="photo landscapes">
+          <img src="img (12).png" alt="Lake With Mountains">
+          <p class="caption">Lake With Mountains</p>
+      </div>
+      <div class="photo landscapes">
+          <img src="img (13).png" alt="Cabin On The Lake">
+          <p class="caption">Cabin On The Lake</p>
+      </div>
+      <div class="photo landscapes">
+          <img src="img (2).png" alt="Dramatic Hillside">
+          <p class="caption">Dramatic Hillside</p>
+      </div>
+      <div class="photo portraits">
+          <img src="img (3).png" alt="Dramatic Female Portrait">
+          <p class="caption">Dramatic Female Portrait</p>
+      </div>
+      <div class="photo portraits">
+          <img src="img (4).png" alt="Woman With Balloons">
+          <p class="caption">Woman With Balloons</p>
+      </div>
+      <div class="photo portraits">
+          <img src="img (5).png" alt="Woman With Binary Projection">
+          <p class="caption">Woman With Binary Projection</p>
+      </div>
+  </section>
+  <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+  </div>  
+</body>
+</html>
