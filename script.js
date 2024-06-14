@@ -1,6 +1,6 @@
 function filterGallery(category) {
-    const photos = document.querySelectorAll('.photo');
-    photos.forEach(photo => {
+    const galleryelement = document.querySelectorAll('.galleryelement');
+    galleryelement.forEach(photo => {
         const isVisible = category === 'all' || photo.classList.contains(category);
         photo.style.display = isVisible ? '' : 'none';
     });

@@ -117,6 +117,7 @@ background-color:  rgba(46, 53, 30, 0.6);
   overflow: visible;
 }
 .g34:hover{
+  transition: 0.6s;
   height: 100%;
   margin-top: 0%;
   margin-left: 0px; 
@@ -142,6 +143,16 @@ background-color:  rgba(46, 53, 30, 0.6);
   height: 110%;
 }
 .g30 {
+  height: 170%;
+  margin-left: -10%;
+  overflow:visible;
+}
+.g30:hover{
+  height: 100%;
+  margin-left: 0%;
+  margin-top: 20%;
+  overflow:visible;
+
 }
 .g29 {
   margin-top: -34%;
@@ -153,17 +164,43 @@ background-color:  rgba(46, 53, 30, 0.6);
   height: 140%;
 }
 .g28 {
+  
 }
 .g27 {
+  height: 235%;
+  margin-left: 5%;
+  overflow: visible;
+}
+.g277{
+  background-color:  rgba(30, 32, 53, 0.6);
 }
 .g26 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  margin-top: -30%;
+  height: 285%;
+  margin-left: 7%;
+  overflow: visible;
+}
+.g266{
+  background-color:  rgba(53, 35, 30, 0.6);
 }
 .g25 {
+  height: 235%;
+  margin-top: -5%;
+  margin-left: 5%;
+  overflow: visible;
   background-image: url("/Illustrations/Template\ 800x800.jpg");
 }
+.g255{
+  background-color:  rgba(51, 53, 30, 0.6);
+}
 .g24 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  height: 235%;
+  margin-top: -10%;
+  margin-left: 5%;
+  overflow: visible;
+}
+.g244{
+  background-color:  rgba(30, 52, 53, 0.6);
 }
 .g23 {
   background-image: url("/Illustrations/Template\ 800x800.jpg");
