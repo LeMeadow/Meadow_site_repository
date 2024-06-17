@@ -25,10 +25,10 @@ background-color: rgb(0, 0, 0);
   z-index: 3;
   position: absolute;
   display: grid;
-  grid-template-columns: repeat(6, 11vw);
-  grid-template-rows: repeat(10, 11vw);
+  grid-template-columns: repeat(6, 10vw);
+  grid-template-rows: repeat(10, 10vw);
   margin-top: 300px;
-  margin-left: 280px;
+  margin-left: 300px;
   gap: 13px;
 }
 
