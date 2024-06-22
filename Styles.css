@@ -79,7 +79,6 @@ background-color: rgb(0, 0, 0);
 
 .g40 {
   content: url(Illustrations/swords.png);
-  content: url('Illustrations/1.jpg');
   margin-top: -10%;
   overflow: visible;
 }
@@ -88,19 +87,16 @@ background-color: rgb(0, 0, 0);
 }
 .g39 {
   content: url(Illustrations/swords.png);
-  content: url('Illustrations/2.jpg');
   margin-top: -10%;
   overflow: visible;
 }
 .g38 {
   content: url(Illustrations/swords.png);
-  content: url('Illustrations/3.jpg');
   margin-top: -10%;
   overflow: visible;
 }
 .g37 {
   content: url(Illustrations/swords.png);
-  content: url('Illustrations/hollow.png');
   background-color: rgba(30, 32, 53, 0.6);
 }
 .g36 {
