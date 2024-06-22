@@ -79,6 +79,7 @@ background-color: rgb(0, 0, 0);
 
 .g40 {
   content: url(Illustrations/swords.png);
+
   margin-top: -10%;
   overflow: visible;
 }
@@ -226,73 +227,81 @@ margin-top: -20%;
 }
 .g23 {
   content: url(Illustrations/swords.png);
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
 }
 .g22 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g21 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g20 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+    content: url(Illustrations/swords.png);
+
 }
 .g19 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
+
 }
 .g18 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
+
 }
 .g17 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
+
 }
 .g16 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
+
 }
 .g15 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
+
 }
 .g14 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
+
 }
 .g13 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
+
 }
 .g12 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
+
 }
 .g11 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g10 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g9 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g8 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g7 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g6 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g5 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g4 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g3 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g2 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 .g1 {
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
+  content: url(Illustrations/swords.png);
 }
 
 
