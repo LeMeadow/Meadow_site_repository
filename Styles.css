@@ -78,27 +78,28 @@ background-color: rgb(0, 0, 0);
 }
 
 .g40 {
-  content: url('Illustrations/1.jpg');
+  content: url('Illustrations/morgan.jpg');
   margin-top: -10%;
   overflow: visible;
 }
 .g40:hover {
 }
 .g39 {
-  content: url('Illustrations/2.jpg');
+  content: url(Illustrations/adelia.jpg);
   margin-top: -10%;
   overflow: visible;
 }
 .g38 {
-  content: url('Illustrations/3.jpg');
+  content: url(Illustrations/feli.jpg);
   margin-top: -10%;
   overflow: visible;
 }
 .g37 {
-  content: url('Illustrations/hollow.png');
+  content: url(Illustrations/hollow.png);
   background-color: rgba(30, 32, 53, 0.6);
 }
 .g36 {
+  content: url(Illustrations/kaolin.jpg);
 height: 150%;
 margin-left: 0px;
 margin-top: -10px;
@@ -117,7 +118,7 @@ background-color:  rgba(46, 53, 30, 0.6);
   width: auto;
 }
 .g34 {
-content: url(Illustrations/timo1.jpg);
+content: url(Illustrations/timo.jpg);
 height: 210%;
 margin-top: -20%;
 }
@@ -133,12 +134,14 @@ margin-top: -20%;
   height: 166%;
 }
 .g32 {
+  content: url(Illustrations/potion.png);
   background-color:  rgba(53, 30, 48, 0.6);
   height: 130%;
   margin-left: 0px;
   margin-top: -17%;
 }
 .g31 {
+  content: url(Illustrations/undyne.png);
   margin-top: -5%;
   height: 130%;
   background-color:  rgba(30, 32, 53, 0.6);
@@ -148,6 +151,7 @@ margin-top: -20%;
   height: 110%;
 }
 .g30 {
+  content: url(Illustrations/mamie.jpg);
   height: 170%;
   overflow:visible;
 }
@@ -156,6 +160,7 @@ margin-top: -20%;
   overflow:visible;
 }
 .g29 {
+  content: url(Illustrations/scott.png);
   margin-top: -34%;
   height: 170%;
   background-color:  rgba(30, 32, 53, 0.6);
@@ -165,9 +170,10 @@ margin-top: -20%;
   height: 140%;
 }
 .g28 {
-  
+  content: url(Illustrations/assisted.jpg);
 }
 .g27 {
+  content: url(Illustrations/A_Morgan.png);
   height: 235%;
   margin-left: 5%;
   overflow: visible;
@@ -176,6 +182,7 @@ margin-top: -20%;
   background-color:  rgba(30, 32, 53, 0.6);
 }
 .g26 {
+  content: url(Illustrations/A_Adelia.png);
   margin-top: -30%;
   height: 285%;
   margin-left: 7%;
@@ -185,16 +192,17 @@ margin-top: -20%;
   background-color:  rgba(53, 35, 30, 0.6);
 }
 .g25 {
+  content: url(Illustrations/A_Feli.png);
   height: 235%;
   margin-top: -5%;
   margin-left: 5%;
   overflow: visible;
-  background-image: url("/Illustrations/Template\ 800x800.jpg");
 }
 .g255{
   background-color:  rgba(51, 53, 30, 0.6);
 }
 .g24 {
+  content: url(Illustrations/A_Kaolin.png);
   height: 235%;
   margin-top: -10%;
   margin-left: 5%;
@@ -204,31 +212,65 @@ margin-top: -20%;
   background-color:  rgba(30, 52, 53, 0.6);
 }
 .g23 {
-
+  content: url(Illustrations/kim.png);
+  height: 140%;
+  margin-top: -15%;
 }
 .g22 {
+  content: url(Illustrations/Brick.png);
+  margin: 10%;
+  height: 80%;
+  width: 80%;
+  overflow: visible;
 
+}
+.g222{
+  background-color:  rgba(53, 30, 30, 0.6);
 }
 .g21 {
-
+  content: url(Illustrations/Sonic.png);
+  height: 140%;
+  margin-top: -15%;
+  background-color:  rgba(35, 30, 53, 0.6);
 }
 .g20 {
-
+  content: url(Illustrations/torhaa.png);
+  height: 120%;
+  margin-top: -7%;
 }
 .g19 {
-
+  content: url(Illustrations/A_Hazel.png);
+  height: 180%;
+  margin-top: -25%;
+  margin-left: -10%;
+  overflow: visible;
+}
+.g199 {
+  background-color:  rgba(53, 44, 30, 0.6);
 }
 .g18 {
-
+  content: url(Illustrations/W_adelia.png);
+  height: 230%;
+  margin-top: -30%;
+  margin-left: -1%;
+  overflow: visible;
+  background-color:  rgba(59, 36, 31, 0.6);
 }
 .g17 {
 
 }
 .g16 {
-
+  content: url(Illustrations/crocodile.png);
+  height: 160%;
+  margin-top: -8%;
 }
 .g15 {
-
+  content: url(Illustrations/minilink.png);
+  height: 140%;
+  margin-top: -10%;
+  margin-left: -1%;
+  overflow: visible;
+  background-color:  rgba(30, 41, 53, 0.6);
 }
 .g14 {
 
@@ -517,15 +559,15 @@ bottom:0px;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: none;
   background-color: rgba(0, 0, 0, 0.9);
   font-family: 'bobby';
 }
 .modal-content {
+  padding: 20px;
   margin: auto;
   display: block;
-  height: 95%;
-  padding: 15px;
+  height: 83%;
   object-fit: cover;
 }
 .modal-content, #caption {
@@ -551,6 +593,16 @@ bottom:0px;
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+#caption {
+  font-size:larger;
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  height: 150px;
 }
 
 /*.basdepage{
