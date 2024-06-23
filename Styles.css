@@ -567,7 +567,7 @@ bottom:0px;
   padding: 20px;
   margin: auto;
   display: block;
-  height: 83%;
+  height: 40vw;
   object-fit: cover;
 }
 .modal-content, #caption {
@@ -619,6 +619,7 @@ bottom:0px;
   display: none;
 }
 
+
 @media screen and (max-width: 1250px) {
   .boutonsdroit{
     display: none;
@@ -665,4 +666,9 @@ bottom:0px;
     width: 100%;
   }
 
+  @media screen and (max-width: 400px) {
+    .gallerycontainer{
+      grid-template-columns: repeat(4, 5vw);
+      grid-template-rows: repeat(9, 5vw);
+    }
 }
