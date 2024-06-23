@@ -665,10 +665,15 @@ bottom:0px;
     margin-left: -45px;
     width: 100%;
   }
+  .modal-content{
+    object-fit:contain;
+    height: 500px;
+    max-width: 400px;
+    display: flex;
+    margin-top: 10vw;
 
-  @media screen and (max-width: 400px) {
-    .gallerycontainer{
-      grid-template-columns: repeat(4, 5vw);
-      grid-template-rows: repeat(9, 5vw);
-    }
+  }
+
+  @media screen and (max-width: 600px) {
+
 }
