@@ -12,7 +12,7 @@ body{
 margin:0;
 padding:0;
 overflow-x: hidden;
-position:absolute;
+position: relative;
 font-family: 'bobby';
 background-color: rgb(0, 0, 0);
 }
