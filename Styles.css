@@ -615,7 +615,7 @@ bottom:0px;
   background-color: rgb(0, 0, 0);
 }*/
 
-.ligne2{
+.ligne0{
   display: none;
 }
 
@@ -625,6 +625,9 @@ bottom:0px;
     }
   }
   @media screen and (max-width: 970px) {
+    .ligne0{
+      display:inline;
+    }
   .nappe{
     display:none;
   }
