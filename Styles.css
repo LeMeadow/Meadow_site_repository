@@ -9,7 +9,8 @@ font-style: normal;
 }
 
 body{
-margin:0;
+margin: 0px;
+margin-right: 0px;
 padding:0;
 overflow-x: hidden;
 position: relative;
@@ -81,8 +82,6 @@ background-color: rgb(0, 0, 0);
   content: url('Illustrations/morgan.jpg');
   margin-top: -10%;
   overflow: visible;
-}
-.g40:hover {
 }
 .g39 {
   content: url(Illustrations/adelia.jpg);
@@ -256,64 +255,6 @@ margin-top: -20%;
   overflow: visible;
   background-color:  rgba(59, 36, 31, 0.6);
 }
-.g17 {
-
-}
-.g16 {
-  content: url(Illustrations/crocodile.png);
-  height: 160%;
-  margin-top: -8%;
-}
-.g15 {
-  content: url(Illustrations/minilink.png);
-  height: 140%;
-  margin-top: -10%;
-  margin-left: -1%;
-  overflow: visible;
-  background-color:  rgba(30, 41, 53, 0.6);
-}
-.g14 {
-
-}
-.g13 {
-
-}
-.g12 {
-
-}
-.g11 {
-
-}
-.g10 {
-
-}
-.g9 {
-
-}
-.g8 {
-
-}
-.g7 {
-
-}
-.g6 {
-
-}
-.g5 {
-
-}
-.g4 {
-
-}
-.g3 {
-
-}
-.g2 {
-
-}
-.g1 {
-
-}
 
 
 .glyphes{
@@ -485,7 +426,7 @@ mix-blend-mode:overlay;
 z-index: -1;
 width: 110vw;
 height: 2750px;
-margin-left: -65px;
+margin-left: -0px;
 position:absolute;
 top: 0;
 }
@@ -659,7 +600,7 @@ top: 0;
     margin-top: 10vw;
 
   }
-
-  @media screen and (max-width: 600px) {
-
+  .body{
+  margin-right: -700px;
+}
 }
