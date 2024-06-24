@@ -577,6 +577,9 @@ top: 0;
   }
   }
   @media screen and (max-width: 970px) {
+    .TILES{
+      width: 150%;
+    }
     .ligne0{
       display:inline;
     }
