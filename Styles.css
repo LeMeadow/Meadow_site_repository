@@ -577,8 +577,12 @@ top: 0;
   }
   }
   @media screen and (max-width: 970px) {
+    .body{
+      width: 200px;
+    }
     .TILES{
-      width: 100%;
+      width: 150%;
+      overflow: hidden;
     }
     .ligne0{
       display:inline;
