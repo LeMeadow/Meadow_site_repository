@@ -582,7 +582,7 @@ top: 0;
       max-width: 100vw;
     }
     .TILES{
-      width: 120vw;
+      width: 100vw;
       overflow: hidden;
     }
     .ligne0{
@@ -595,9 +595,9 @@ top: 0;
     display: none;
   }
   .gallerycontainer{
-    grid-template-columns: repeat(4, 18vw);
-    grid-template-rows: repeat(9, 18vw);
-    margin-left: -37px;
+    grid-template-columns: repeat(4, 19vw);
+    grid-template-rows: repeat(9, 19vw);
+    margin-left: -6vw;
     width: 100%;
     justify-content: center;
   }
