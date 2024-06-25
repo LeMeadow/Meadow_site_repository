@@ -466,10 +466,12 @@ top: 0;
   display:flex;
 }
 .container {
+  overflow: hidden;
   z-index: -1;
   font-size: 0; 
 }
 .container div {
+  overflow: hidden;
   min-width: var(--s);
   width: var(--s);
   margin: var(--m);
@@ -610,9 +612,6 @@ top: 0;
   }
   .ligne{
     display: none;
-  }
-  .ligne2{
-
   }
   .ligne3{
     margin-top: -50px;
