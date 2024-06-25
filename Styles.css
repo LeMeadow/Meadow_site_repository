@@ -535,7 +535,7 @@ top: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
+  height: 60vw;
   object-fit: cover;
 }
 .modal-content, #caption {
