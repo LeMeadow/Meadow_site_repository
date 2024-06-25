@@ -602,6 +602,12 @@ top: 0;
   }
   }
   @media screen and (max-width: 970px) {
+    .about{
+      display: none;
+    }
+    .about1{
+      display: none;
+    }
     .boutonsdroit{
       margin-top: -330px;
       margin-right: 0px;
