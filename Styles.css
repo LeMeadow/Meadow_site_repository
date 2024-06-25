@@ -578,7 +578,7 @@ top: 0;
   }
   @media screen and (max-width: 970px) {
     .TILES{
-      width: 150%;
+      width: 100%;
     }
     .ligne0{
       display:inline;
