@@ -42,9 +42,10 @@ width: 100vw;
   display: grid;
   grid-template-columns: repeat(6, 11vw);
   grid-template-rows: repeat(10, 11vw);
-  margin-top: 300px;
+  margin-top: 400px;
   margin-left: 18vw;
   gap: 13px;
+  height: 600px;
 }
 
 .galleryelement:hover{
@@ -565,26 +566,29 @@ top: 0;
 
 @media screen and (max-width: 1250px) {
   .boutonsdroit{
-    margin-top: -330px;
-    margin-right: 0px;
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    }
-  .Proutbutton1{
-      margin-right: 20px;
-  }
-  .Proutbutton2{
-    margin-right: 40px;
-}
-  .dropdown-content1{
-    margin-right: 21vw;
-  }
-  .dropdown-content2{
-    margin-right: 12vw;
+    display: none;
   }
   }
   @media screen and (max-width: 970px) {
+    .boutonsdroit{
+      margin-top: -330px;
+      margin-right: 0px;
+      width: 100%;
+      display: flex;
+      justify-content: right;
+      }
+    .Proutbutton1{
+        margin-right: 20px;
+    }
+    .Proutbutton2{
+      margin-right: 40px;
+  }
+    .dropdown-content1{
+      margin-right: 22vw;
+    }
+    .dropdown-content2{
+      margin-right: 12vw;
+    }
     .filtre{
       width: 100vw;
     }
@@ -630,7 +634,7 @@ top: 0;
   }
   .ligne4{
     margin: 0;
-    font-size: 19px;
+    font-size: 26px;
   }
   .ligne5{
     justify-content: center;
