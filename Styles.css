@@ -270,6 +270,30 @@ margin-top: -20%;
   overflow: visible;
   background-color:  rgba(59, 36, 31, 0.6);
 }
+.g17{
+  content: url(Illustrations/Line-up.png);
+  height: 250%;
+  margin-left: -5px;
+  margin-top: -40px;
+  overflow: visible;
+}
+.g16{
+  content: url(Illustrations/crocodile.png);
+  height: 150%;
+  margin-left: 5px;
+  margin-top: -14px;
+  overflow: visible;
+}
+.g15{  
+  content: url(Illustrations/minilink.png);
+  height: 150%;
+  margin-left: -5px;
+  margin-top: -20px;
+  overflow: visible;
+}
+.g155{
+  background-color:  rgba(30, 46, 53, 0.6);
+}
 
 
 .glyphes{
@@ -508,9 +532,10 @@ top: 0;
 }
 .modal-content {
   padding: 20px;
-  margin: auto;
   display: block;
-  height: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
   object-fit: cover;
 }
 .modal-content, #caption {
@@ -547,15 +572,22 @@ top: 0;
   height: 150px;
 }
 
-/*.basdepage{
-  position:absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 5;
-  height: 80px;
-  background-color: rgb(0, 0, 0);
-}*/
+.about{
+  margin-top: -150px;
+  z-index: 3;
+  position: relative;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.about1{
+  margin-top: -10x;
+  z-index: 3;
+  position: relative;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 
 .ligne0{
   display: none;
@@ -642,7 +674,6 @@ top: 0;
     margin: 0px;
     padding-top: 70px;
     width: 100vw;
-  }
   }
   .modal-content{
     object-fit:contain;
