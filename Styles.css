@@ -600,7 +600,7 @@ top: 0;
     grid-template-rows: repeat(9, 19vw);
     margin-left: 0px;
     padding: 0px;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
   }
   .ligne{
@@ -619,6 +619,7 @@ top: 0;
     justify-content: center;
   }
   .ligne4{
+    width: 100vw;
     margin: 0;
     font-size: 19px;
   }
