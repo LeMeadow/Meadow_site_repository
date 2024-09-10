@@ -712,14 +712,14 @@ top: 0;
         margin-right: 20px;
     }
     .Proutbutton2{
-      margin-right: 40px;
+      margin-right: -10px;
   }
     .dropdown-content1{
-      margin-right: 23vw;
+      margin-right: 15vw;
     }
 
     .dropdown-content2{
-      margin-right: 12vw;
+      margin-right: 0vw;
     }
     .dropdown-content2 a {
       font-size: 20px;
@@ -750,7 +750,7 @@ top: 0;
   .gallerycontainer{
     grid-template-columns: repeat(4, 19vw);
     grid-template-rows: repeat(9, 19vw);
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 500px;
     padding: 0px;
     width: 100vw;
