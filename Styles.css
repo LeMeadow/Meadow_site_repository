@@ -93,6 +93,18 @@ width: 100vw;
   grid-row: span 2;
 }
 
+.g41 {
+  content: url(Illustrations/trèsgrossillu.jpg);
+  padding-top: 42%;
+  overflow: visible;
+}
+.g41:hover{
+  transition: 0.6s;
+  height: 100%;
+  padding-top: 0%;
+  margin-left: 0px; 
+  overflow: visible;
+}
 .g40 {
   content: url('Illustrations/morgan.jpg');
   margin-top: -10%;
@@ -335,33 +347,97 @@ h{
   padding: 10px 30px 10px 30px;
 }
 
-.button{
+.buttonligne{
   opacity: 0.9;
-  border: none;
-  color:black;
+  padding: 5px 18px;
+  border: unset;
+  border-radius: 20px;
+  color: #212121;
   font-size: 25px;
   font-family: 'bobby';
   cursor: url('cursor.cur'), auto;
-  background-image: linear-gradient(to right, rgb(114, 88, 163), rgb(177, 149, 243), rgb(243, 205, 255));
-  border-radius: 3px;
-  padding-left: 17px;
-  padding-right: 17px;
-  padding-top: 2px;
-  padding-bottom: 0px;
-  transition: 0.5s;
-  background-size: 200% auto;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 500ms;
+  overflow: hidden;
 }
-.button:hover {
-  opacity: 1;
-background-position: right center; 
-color: #000000;
-text-decoration: none;
 
+.buttonligne::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+
+.buttonligne:hover {
+  background-color: #212121;
+  opacity: 1;
+  color: #e8e8e8;
 }
-.button:active {
+.buttonligne:hover::before {
+  width: 100%;
+ }
+.buttonligne:active {
 background-image: linear-gradient(rgb(64, 59, 70), rgb(64, 59, 70));
 transform: translateY(4px);
-color: rgb(223, 196, 255);
+color: rgb(174, 159, 255);
+}
+.buttonligne4{
+  opacity: 0.9;
+  padding: 5px 18px;
+  border: unset;
+  border-radius: 20px;
+  color: #212121;
+  font-size: 25px;
+  font-family: 'bobby';
+  cursor: url('cursor.cur'), auto;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 500ms;
+  overflow: hidden;
+}
+
+.buttonligne4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+
+.buttonligne4:hover {
+  background-color: #212121;
+  opacity: 1;
+  color: #e8e8e8;
+}
+.buttonligne4:hover::before {
+  width: 100%;
+ }
+.buttonligne4:active {
+background-image: linear-gradient(rgb(64, 59, 70), rgb(64, 59, 70));
+transform: translateY(4px);
+color: rgb(159, 189, 255);
 }
 .boutonsdroit{
 margin-top: 40px;
@@ -602,6 +678,9 @@ top: 0;
   }
   }
   @media screen and (max-width: 970px) {
+    .buttonligne{
+      display: none;
+    }
     .about{
       display: none;
     }
@@ -622,7 +701,7 @@ top: 0;
       margin-right: 40px;
   }
     .dropdown-content1{
-      margin-right: 22vw;
+      margin-right: 23vw;
     }
     .dropdown-content2{
       margin-right: 12vw;
