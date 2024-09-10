@@ -648,9 +648,18 @@ top: 0;
   color: #ccc;
   height: 150px;
 }
+.abou{
+  width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode:soft-light;
+  background-image: url(about.jpg);
+  background-size: 110vw;
+  background-position: 0% 60%;
 
+}
 .about{
-  margin-top: -150px;
   z-index: 3;
   position: relative;
   font-size: 25px;
@@ -658,6 +667,7 @@ top: 0;
   text-align: center;
 }
 .about1{
+  padding-bottom: 30px;
   margin-top: -10x;
   z-index: 3;
   position: relative;
@@ -679,6 +689,10 @@ top: 0;
   }
   }
   @media screen and (max-width: 970px) {
+    }
+    .abou{
+      display: none;
+    }
     .buttonligne{
       display: none;
     }
@@ -689,7 +703,7 @@ top: 0;
       display: none;
     }
     .boutonsdroit{
-      margin-top: -330px;
+      margin-top: -450px;
       margin-right: 0px;
       width: 100%;
       display: flex;
@@ -704,8 +718,12 @@ top: 0;
     .dropdown-content1{
       margin-right: 23vw;
     }
+
     .dropdown-content2{
       margin-right: 12vw;
+    }
+    .dropdown-content2 a {
+      font-size: 20px;
     }
     .filtre{
       width: 100vw;
@@ -721,7 +739,8 @@ top: 0;
       overflow: hidden;
     }
     .ligne0{
-      display:inline;
+      margin-top: 100px;
+      display:flow-root;
     }
   .nappe{
     display:none;
@@ -733,7 +752,7 @@ top: 0;
     grid-template-columns: repeat(4, 19vw);
     grid-template-rows: repeat(9, 19vw);
     margin-left: 0px;
-    margin-top: 400px;
+    margin-top: 500px;
     padding: 0px;
     width: 100vw;
     justify-content: center;
