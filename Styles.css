@@ -702,7 +702,7 @@ top: 0;
       display: none;
     }
     .boutonsdroit{
-      margin-top: -450px;
+      margin-top: -400px;
       margin-right: 0px;
       width: 100%;
       display: flex;
@@ -738,7 +738,7 @@ top: 0;
       overflow: hidden;
     }
     .ligne0{
-      margin-top: 100px;
+      margin-top: 40px;
       display:flow-root;
     }
   .nappe{
@@ -751,7 +751,7 @@ top: 0;
     grid-template-columns: repeat(4, 19vw);
     grid-template-rows: repeat(9, 19vw);
     margin-left: 15px;
-    margin-top: 500px;
+    margin-top: 450px;
     padding: 0px;
     width: 100vw;
     justify-content: center;
