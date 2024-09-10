@@ -689,7 +689,6 @@ top: 0;
   }
   }
   @media screen and (max-width: 970px) {
-    }
     .abou{
       display: none;
     }
@@ -751,7 +750,7 @@ top: 0;
   .gallerycontainer{
     grid-template-columns: repeat(4, 19vw);
     grid-template-rows: repeat(9, 19vw);
-    margin-left: 0px;
+    margin-left: 20px;
     margin-top: 500px;
     padding: 0px;
     width: 100vw;
@@ -777,6 +776,7 @@ top: 0;
     justify-content: center;
     display: flex;
     margin: 0px;
+    margin-left: -25px;
     padding-top: 70px;
     width: 100vw;
   }
