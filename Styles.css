@@ -147,6 +147,7 @@ background-color:  rgba(46, 53, 30, 0.6);
 content: url(Illustrations/timo.jpg);
 height: 210%;
 margin-top: -20%;
+overflow: visible;
 }
 .g34:hover{
   transition: 0.6s;
